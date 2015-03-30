@@ -1,0 +1,62 @@
+		<div class="all-content">
+			<img class="prof-pic img-circle img-responsive center-block" src="{{ url_for('static', filename='prof.png') }}">
+
+
+			<ul class="list-unstyled">
+  			<li>hi, I’m brett</li>
+  			<li>I do corp dev at google</li>
+  			<li>but I also like
+				<a id="ux-txt" target="_blank" href="http://behance.com/brettgoldstein3">ux design</a>, 
+				<a id="wr-txt" target="_blank" href="http://medium.com/@bg">writing</a>, and 
+				<a id="mu-txt" target="_blank" href="http://soundcloud.com/montydelmonte">music production</a>
+  			</li>
+  			<li>you may find me lurking here:</li>
+			</ul>
+
+
+
+		</div>
+
+
+<div class='link-icons'>
+				<a class="sites" id="medium" target="_blank" href="http://medium.com/@bg">
+					<img src="{{ url_for('static', filename='medium-icon.png') }}">
+				</a>
+				<a class="sites" id="twitter" target="_blank" href="http://twitter.com/thatguybg">
+					<img src="{{ url_for('static', filename='twitter-icon.png') }}">
+				</a>
+				<a class="sites" id="linkedin" target="_blank" href="http://linkedin.com/in/bgoldstein3">
+					<img src="{{ url_for('static', filename='in-icon.png') }}">
+				</a>
+				<a class="sites" id="behance" target="_blank" href="http://behance.com/brettgoldstein3">
+					<img src="{{ url_for('static', filename='beh-icon.png') }}">
+				</a>
+				<a class="sites" id="soundcloud" target="_blank" href="http://soundcloud.com/montydelmonte">
+					<img src="{{ url_for('static', filename='sc-icon.png') }}">
+				</a>
+				<a class="sites" id="producthunt" target="_blank" href="http://producthunt.com/thatguybg">
+					<img src="{{ url_for('static', filename='ph-icon.png') }}">
+				</a>
+				<a class="sites" id="email" target="_blank" href="mailto:brettgoldstein3@gmail.com">
+					<img src="{{ url_for('static', filename='email-icon.png') }}">
+				</a>
+
+
+			</div>
+
+
+
+			<small>copyright 2015</small>
+
+
+
+<div>
+			<!--<p class="text-center">TEXT HERE</p>-->
+			hi, I’m brett<br>
+			I do corp dev at google<br>
+			but I also like 
+				<a id="ux-txt" target="_blank" href="http://behance.com/brettgoldstein3">ux design</a>, 
+				<a id="wr-txt" target="_blank" href="http://medium.com/@bg">writing</a>, and 
+				<a id="mu-txt" target="_blank" href="http://soundcloud.com/montydelmonte">music production</a> <br>
+			you may find me lurking here:
+			</div>

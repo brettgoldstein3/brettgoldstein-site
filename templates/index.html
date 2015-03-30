@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Brett Goldstein</title>
+
+		<!-- Imported stuff -->
+		<!--<link rel="stylesheet" href="{{ url_for('static', filename='bootstrapmin.css') }}">-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+		<!-- My stuff -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='stylez.css') }}">
+		<script src="{{ url_for('static', filename='scripx.js') }}"></script>
+		
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- Google Analytics. Shhhhhh -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-41972429-3', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+
+
+	</head>
+
+	<body>
+		<div class="stuff">
+		<div class="main-image-section col-md-12">
+			<img class="prof-pic img-thumbnail img-circle img-responsive center-block" src="{{ url_for('static', filename='prof.png') }}">
+		</div>
+			
+		<div class="main-text-section col-md-12">
+			<ul class="list-unstyled text-center">
+	  			<li>hi, I’m brett</li>
+	  			<li>I do corp dev at google</li>
+	  			<li>but I also like
+					<a id="ux-txt" target="_blank" href="http://behance.com/brettgoldstein3">ux design</a>, 
+					<a id="wr-txt" target="_blank" href="http://medium.com/@bg">writing</a>, and 
+					<a id="mu-txt" target="_blank" href="http://soundcloud.com/montydelmonte">music production</a>
+	  			</li>
+	  			<li>you may find me lurking here:</li>
+			</ul>
+		</div>
+
+		<div class='link-section col-md-12 text-center'>
+				<a class="link-icon tip-bottom" id="medium" target="_blank" href="http://medium.com/@bg" data-toggle="tooltip" data-placement="bottom" title="diatribes you might enjoy">
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='medium-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='medium-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='medium-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="twitter" target="_blank" href="http://twitter.com/thatguybg" data-toggle="tooltip" data-placement="bottom" title="no tweetstorms, I promise">
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='twitter-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='twitter-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='twitter-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="linkedin" target="_blank" href="http://linkedin.com/in/bgoldstein3" data-toggle="tooltip" data-placement="bottom" title="I'll know if you click this">
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='in-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='in-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='in-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="behance" target="_blank" href="http://behance.com/brettgoldstein3" data-toggle="tooltip" data-placement="bottom" title="such flat design">
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='beh-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='beh-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='beh-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="soundcloud" target="_blank" href="http://soundcloud.com/montydelmonte" data-toggle="tooltip" data-placement="bottom" title="boots 'n' cats">
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='sc-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='sc-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='sc-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="producthunt" target="_blank" href="http://producthunt.com/thatguybg" data-toggle="tooltip" data-placement="bottom" title='skymall 2.0'>
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='ph-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='ph-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='ph-icon.png') }}"'>
+				</a>
+				<a class="link-icon" id="email" target="_blank" href="mailto:brettgoldstein3@gmail.com" data-toggle="tooltip" data-placement="bottom" title='"ping" me'>
+					<img class="icon-img" 
+						src="{{ url_for('static', filename='email-icon.png') }}"
+						onmouseover='this.src="{{ url_for('static', filename='email-icon-hover.png') }}"'
+						onmouseout='this.src="{{ url_for('static', filename='email-icon.png') }}"'>
+				</a>
+		</div>
+
+		</div>
+
+
+	</body>
+
+
+
+</html>

@@ -1,0 +1,83 @@
+.prof-pic{
+	height: 100px;
+	background-color: #F6F6F6;
+	cursor:url(unicursor.gif),auto;
+}
+
+.img-thumbnail{
+
+	background-color: #F6F6F6;
+	border: none;
+	padding: 5px;
+}
+
+body{
+	color: #666666;
+	font-family: 'Roboto', sans-serif;
+}
+
+a{
+	color: #666666;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: #666666;
+}
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #666666;
+}
+
+#ux-txt:hover{
+	color: #4A90E2;
+}
+#wr-txt:hover{
+	color: #77BC85;
+}
+#mu-txt:hover{
+	color: #FF4F18;
+}
+
+.stuff{
+	margin-top: 16%;
+}
+
+.all-content {
+	/* not in use */
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  	min-height: 100vh; /* These two lines are counted as one :-)       */
+
+ 	 display: flex;
+ 	 align-items: center;
+}
+
+.icon-img{
+	height: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.main-text-section{
+	margin-top: 2rem;
+}
+
+.link-section{
+	margin-top: 2rem;
+}
+
+.tooltip.bottom {
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.tooltip.bottom > .tooltip-inner{
+	background-color: #4A4A4A;
+	color: #979797;
+}
+.tooltip.bottom > .tooltip-arrow{
+	border-bottom-color: #4A4A4A;
+}
