@@ -1,0 +1,7 @@
+To Do
+- BUG: tooltip disappears sometimes on mouseover
+- Make tooltips come out of picture (?)
+- Show recent tweets and other posts in talking bubble next to picture (?)
+- Darken outline of picture a little
+- Get a better picture bro
+- Build out components for widget feature pages
