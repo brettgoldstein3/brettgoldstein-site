@@ -2,6 +2,8 @@ To Do
 - BUG: tooltip disappears sometimes on mouseover
 - Make tooltips come out of picture (?)
 - Show recent tweets and other posts in talking bubble next to picture (?)
+- live chat feature would be fun (?)
 - Darken outline of picture a little
 - Get a better picture bro
 - Build out components for widget feature pages
+- Add Facebook Domain Insights metatag: http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013
