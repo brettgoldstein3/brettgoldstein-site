@@ -7,3 +7,4 @@ To Do
 - Get a better picture bro
 - Build out components for widget feature pages
 - Add Facebook Domain Insights metatag: http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013
+- Add cool integrations on segment.com
