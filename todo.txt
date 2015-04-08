@@ -8,3 +8,11 @@ To Do
 - Build out components for widget feature pages
 - Add Facebook Domain Insights metatag: http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013
 - Add cool integrations on segment.com
+- Setup inbox email
+- change profile picture depending on hover over
+- Get rid of unnecessary JS and just use CSS when possible
+
+Widget Ideas
+- MDM Picture Maker: cut background out of picture, make it black and white, then put it in front of green background: http://developers.lyst.com/data/images/2014/02/13/background-removal/
+- Reddit press the button thing: just a button that says dont press it and the number of people who did.
+- Funny Form: a really long form for people to sign up for email list but has lots of funny questions.
