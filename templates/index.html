@@ -18,7 +18,7 @@
 		<!-- My stuff -->
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/stylez.css') }}">
 		<script src="{{ url_for('static', filename='js/scripx.js') }}"></script>
-		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+		<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon-pic.png') }}">
 		
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -27,6 +27,7 @@
 		<meta property="{{ url_for('static', filename='images/prof.png') }}">
 		<meta property="og:type" content="website">
 		<meta property="og:description" content="Don't listen to anything this guy says.">
+		<meta name="google-site-verification" content="K8SjFqH3Dt1GZd4htMtYObdxm0EbEAvRztOZXA9kdw0" />
 
 		<!-- Cool Analytics. Shhhhhh -->
 		<script type="text/javascript">
@@ -37,14 +38,22 @@
 
 		</script>
 
+		<script type='text/css'>
+
+
+		</script>
+
 
 
 	</head>
 
 	<body>
+		   
+
+
 		<div class="stuff">
 		<div class="main-image-section col-md-12">
-			<img class="prof-pic img-thumbnail img-circle img-responsive center-block" src="{{ url_for('static', filename='images/prof.png') }}">
+			<img class="prof-pic img-thumbnail img-circle img-responsive center-block" src="{{ url_for('static', filename='images/prof-pic.png') }}">
 		</div>
 			
 		<div class="main-text-section col-md-12">
@@ -54,7 +63,7 @@
 	  			<li>but I also like
 					<a id="ux-txt" target="_blank" href="http://behance.com/brettgoldstein3">ux design</a>, 
 					<a id="wr-txt" target="_blank" href="http://medium.com/@bg">writing</a>, and 
-					<a id="mu-txt" target="_blank" href="http://soundcloud.com/montydelmonte">music production</a>
+					<a id="mu-txt" target="_blank" href="http://soundcloud.com/montedelmonte">music production</a>
 	  			</li>
 	  			<li>you may find me lurking here:</li>
 			</ul>
@@ -85,7 +94,7 @@
 						onmouseover='this.src="{{ url_for('static', filename='images/beh-icon-hover.png') }}"'
 						onmouseout='this.src="{{ url_for('static', filename='images/beh-icon.png') }}"'>
 				</a>
-				<a class="link-icon" id="soundcloud" target="_blank" href="http://soundcloud.com/montydelmonte" data-toggle="tooltip" data-placement="bottom" title="boots 'n' cats">
+				<a class="link-icon" id="soundcloud" target="_blank" href="http://soundcloud.com/montedelmonte" data-toggle="tooltip" data-placement="bottom" title="boots 'n' cats">
 					<img class="icon-img" 
 						src="{{ url_for('static', filename='images/sc-icon.png') }}"
 						onmouseover='this.src="{{ url_for('static', filename='images/sc-icon-hover.png') }}"'
@@ -106,7 +115,6 @@
 		</div>
 
 		</div>
-
 
 	</body>
 

@@ -11,6 +11,8 @@ To Do
 - Setup inbox email
 - change profile picture depending on hover over
 - Get rid of unnecessary JS and just use CSS when possible
+- push to git: https://help.github.com/articles/error-permission-denied-publickey/
+- for gcloud: https://cloud.google.com/sdk/gcloud/
 
 Widget Ideas
 - MDM Picture Maker: cut background out of picture, make it black and white, then put it in front of green background: http://developers.lyst.com/data/images/2014/02/13/background-removal/

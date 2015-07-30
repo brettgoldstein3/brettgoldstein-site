@@ -44,6 +44,7 @@ a:hover{
 	margin-top: 16%;
 }
 
+
 .all-content {
 	/* not in use */
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -81,3 +82,4 @@ a:hover{
 .tooltip.bottom > .tooltip-arrow{
 	border-bottom-color: #4A4A4A;
 }
+
